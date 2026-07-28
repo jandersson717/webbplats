@@ -1,0 +1,116 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1, h2, p
+{
+    color: #FFFFFF; 
+    border: 1px #000000;
+}
+
+body
+{
+    background-color: #808080;
+}
+
+header
+{
+    display: flex;
+    flex-direction: row;
+}
+
+header h1
+{
+    text-align: center;
+    font-size: 24px;
+    margin: 10px;
+    letter-spacing: 15%;
+}
+
+#stads
+{
+    letter-spacing: 27%;
+}
+
+#header-content
+{
+    display: flex;
+    flex-direction: column;
+}
+
+nav
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #606060;
+    width: 874px;
+    height: 50px;
+    margin-top: 9px;
+    margin-left: 5px;
+    border-radius: 3px;
+}
+
+nav h2
+{
+    margin: 10px;
+    font-size: 22px;
+}
+
+.articles
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.articles article
+{
+    background-color: #707070;
+    width: 501px;
+    height: 360px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.articles h2
+{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.articles p
+{
+    font-size: 20px;
+    text-align: left;
+    margin: 20px;
+}
+
+#address h2
+{
+    margin-top: 50px;
+}
+
+#map img
+{
+    margin: 19px;
+}
+
+footer
+{
+    width: 1012px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 3px;
+    background-color:#606060;
+}
+
+footer h2
+{
+    padding-top: 10px;
+    font-size: 20px;
+    text-align: center;
+}
